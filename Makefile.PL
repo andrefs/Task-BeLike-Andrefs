@@ -35,7 +35,7 @@ WriteMakefile(
 
 		'App::pmuninstall' => 0,
 		'utf8::all' => 0,
-		'XML::Twig' =>,
+		'XML::Twig' => 0,
 		'XML::Entities' => 0,
 		'HTML::Entities' => 0,
 		'Module::Starter' => 0,
