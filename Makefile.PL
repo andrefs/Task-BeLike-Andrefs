@@ -43,6 +43,7 @@ WriteMakefile(
 
 		
 		'Catalyst::Plugin::Unicode' => 0,
+		'Catalyst::Plugin::Redirect' => 0,
 		'Catalyst::Example::Controller::InstantCRUD' => 0,
 		'TheSchwartz::Job' => 0,
 		'DBIx::Migration' => 0,
