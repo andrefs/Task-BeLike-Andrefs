@@ -12,6 +12,23 @@ WriteMakefile(
       : ()),
     PL_FILES            => {},
     PREREQ_PM => {
+		# ubuntu packages:
+		# - Net::SSLeay
+		# 	- libssl-dev
+		# - DB_File
+		# 	- libdb5.1-dev
+		# - XML::Parser
+		# 	- libexpat1-dev
+		# - Cairo
+		# 	- libcairo2-dev
+
+		# needed by cpan
+		'Term::ReadLine::Perl' => 0,
+		'Term::ReadKey' => 0,
+		'CPAN::SQLite' => 0,
+		'Test::Pod' => 0,
+
+
         'Test::More' => 0,
 		'Task::Kensho' => 0,
 		'Task::Kensho::Testing' => 0,
@@ -39,8 +56,7 @@ WriteMakefile(
 		'XML::Entities' => 0,
 		'HTML::Entities' => 0,
 		'Module::Starter' => 0,
-		'corelist' => 0, # Module::Corelist
-
+		'Module::CoreList' => 0,
 		
 		'Catalyst::Plugin::Unicode' => 0,
 		'Catalyst::Plugin::Redirect' => 0,
@@ -50,11 +66,18 @@ WriteMakefile(
 		'MooseX::Types::JSON' => 0,
 		'MooseX::Types::Path::Class' => 0,
 		'Text::CSV' => 0,
+		'App::Nopaste' => 0,
+		'Clipboard' => 0,
+		'YAML::AppConfig' => 0,
+		'Chart::Clicker' => 0,
 
-
-		# needed by cpan
-		'Term::ReadLine::Perl' => 0,
-		'Term::ReadKey' => 0,
+		'String::Approx' => 0,
+		'Bio::Perl' => 0,
+		'BioPerl' => 0,
+		'Bundle::BioPerl' => 0,
+		'OBO::Parser::OBOParser' => 0,
+		'Perl::Critic' => 0,
+		'Perl::Tidy' => 0,
 
 		# required in ~/.re.pl/replrc
     	'Devel::REPL::Plugin::Colors' => 0,
