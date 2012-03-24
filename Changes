@@ -1,6 +1,9 @@
 Revision history for Task-BeLike-Andrefs
 
 {{$NEXT}}
+		Added Twitter plugin
+
+0.05_04   2012-03-24 18:25:35 Europe/Lisbon
 		Learning out to work with Dist::Zilla
 		
 0.05_03   2012-03-24 18:14:48 Europe/Lisbon
